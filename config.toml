@@ -1,0 +1,4 @@
+baseURL = "https://www.davidsilva.pt/"
+languageCode = "en-us"
+title = "David Silva"
+theme = "hugo-uilite"

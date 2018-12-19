@@ -1,0 +1,20 @@
+{{ $projects := .Site.Data.projects }}
+
+<section id="projects" class="blue">
+  <h2 class="heading"><i class="fas fa-{{ $projects.icon }}"></i> {{ $projects.title }}</h2>
+  <div id="timeline">
+    {{ range $index, $element := $projects.projects }}
+    <div class="timeline-item clearfix">
+      <div class="timeline-icon"></div>
+      
+      <div class="timeline-content {{ if eq (mod $index 2) 0 }} right {{ end }}">
+        <span class="date">{{ $element.timeperiod }}</span>
+        <h6 class="h3 my-2">{{ $element.company }}</h6>
+        <h7 class="h4 my-2">{{ $element.role }}</h7>
+        <p class="">{{ $element.description }}</p>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+
+</section>

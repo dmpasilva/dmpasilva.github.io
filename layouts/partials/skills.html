@@ -1,0 +1,25 @@
+{{ $skills := .Site.Data.skills }}
+
+<section class="orange">
+  <h2 class="heading"><i class="fas fa-{{ $skills.icon }}"></i> {{ $skills.title }}</h2>
+
+  <div class="row justify-content-md-center text-center">
+
+    {{ range $index, $element := $skills.skills }}
+
+    <div class="col-6 col-lg-4 col-md-4 mb-3">
+      <div class="card p-lg-4">
+        {{ if eq $element.type "brand" }}
+          <i class="mt-3 fab fa-{{ $element.icon }} fa-3x"></i>
+        {{ else if eq $element.type "solid" }}
+          <i class="mt-3 fas fa-{{ $element.icon }} fa-3x"></i>
+        {{ end }}
+
+        <h5 class="mt-4">{{ $element.title }}</h5>
+        <p class="text-muted">{{ $element.description }}</p>
+      </div>
+    </div>
+
+    {{ end }}
+  </div>
+</section>

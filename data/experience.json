@@ -1,0 +1,18 @@
+{
+	"title" : "Work Experience",
+	"icon": "briefcase",
+	"experience" : [
+		{
+			"timeperiod" : "January 2018 - Present",
+			"company" : "Satcom International AG",
+			"role": "Front-End Developer",
+			"description" : "At Satcom I am responsible for the Loxy Web application. I work with web technologies, docker containers, test suits and continuous integration tools. "
+		},
+		{
+			"timeperiod" : "June 2016 – July 2017",
+			"company" : "Institute of Electronics and Informatics Engineering of Aveiro",
+			"role": "Junior Researcher",
+			"description" : "I worked on DICOM Validator, a web-based solution for evaluation the compliance of PACS applications with the DICOM standard."
+		}
+	]
+}
