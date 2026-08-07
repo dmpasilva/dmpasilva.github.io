@@ -1,7 +1,7 @@
 ---
 title: Welcome to My Blog
 slug: welcome
-date: 2026-08-04
+date: 2026-08-01
 excerpt: When I was younger, I made my first WordPress install on a free hosting platform. Looking back, that blog ended up kickstarting my entire professional career.
 tags:
   - Personal
