@@ -1,4 +1,4 @@
-import{H as t,I as m,M as h,N as v,R as f,c as i,h as o,j as s,k as l,l as p,w as c,x as d,y as u,z as g}from"./chunk-E5B6VSOV.js";var b=[{slug:"bio",title:"Bio",html:`<h1>About</h1>
+import{H as t,I as m,M as h,N as v,R as f,c as i,h as r,j as s,k as l,l as p,w as c,x as d,y as u,z as g}from"./chunk-E5B6VSOV.js";var b=[{slug:"bio",title:"Bio",html:`<h1>About</h1>
 <p>David Silva is a Software Engineer with professional experience in full-stack software development,
 project management, and cloud deployments in Kubernetes, AWS, Google Cloud, and Azure.</p>
 <p>His professional experience, combined with a strong interest in most technology-related fields,
@@ -9,9 +9,9 @@ how things work and how one can give new uses to existing technology.</p>
 <p><strong>Lifebit Biotech Ltd.</strong> </p>
 <p><em>September 2022 \u2013 Present</em></p>
 <ul>
-<li><p>Develop automated cloud provisioning engines across AWS, Azure, and Kubernetes, enabling non-technical researchers to instantly launch complex, secure analytics environments without manual IT setup.</p>
+<li><p>Develop automated cloud provisioning engines across AWS, Azure, and Kubernetes, enabling non-technical researchers to instantly launch complex analytics environments without manual IT setup.</p>
 </li>
-<li><p>Engineered dynamic IaC and security modules using Terraform, CloudFormation, and Typescript to automatically configure VPC networks, IAM roles, credentials, and secrets for customer deployments.</p>
+<li><p>Engineered IaC modules using Terraform, CloudFormation, and Typescript to automatically configure VPC networks, IAM roles, credentials, and secrets for customer deployments.</p>
 </li>
 <li><p>Built custom image pipelines using Packer, Docker, and Bash to launch containerized interactive workspaces (Jupyter, RStudio, VS Code, Spark EMR) on dynamically provisioned Cloud Virtual Machines.</p>
 </li>
@@ -172,9 +172,9 @@ how things work and how one can give new uses to existing technology.</p>
 <h3>Senior Backend Engineer</h3>
 <p><strong>Lifebit Biotech Ltd.</strong> | September 2022 \u2013 Present</p>
 <ul>
-<li><p>Develop automated cloud provisioning engines across AWS, Azure, and Kubernetes, enabling non-technical researchers to instantly launch complex, secure analytics environments without manual IT setup.</p>
+<li><p>Develop automated cloud provisioning engines across AWS, Azure, and Kubernetes, enabling non-technical researchers to instantly launch complex analytics environments without manual IT setup.</p>
 </li>
-<li><p>Engineered dynamic IaC and security modules using Terraform, CloudFormation, and Typescript to automatically configure VPC networks, IAM roles, credentials, and secrets for customer deployments.</p>
+<li><p>Engineered IaC modules using Terraform, CloudFormation, and Typescript to automatically configure VPC networks, IAM roles, credentials, and secrets for customer deployments.</p>
 </li>
 <li><p>Built custom image pipelines using Packer, Docker, and Bash to launch containerized interactive workspaces (Jupyter, RStudio, VS Code, Spark EMR) on dynamically provisioned Cloud Virtual Machines.</p>
 </li>
@@ -259,4 +259,4 @@ how things work and how one can give new uses to existing technology.</p>
 </ul>
 <br>
 <br><p class="last-updated"><strong>Last Updated:</strong> 2026-08-04</p>
-`}];var a="dmpasilva_202608042.pdf";var y=class r{route=i(f);titleService=i(h);sanitizer=i(v);slugInput=m();pages=b;cvFilename=a;cvDownloadUrl=`/cv/${a}`;slug=t(()=>this.slugInput()||this.route.snapshot.paramMap.get("slug")||this.route.snapshot.url[0]?.path);page=t(()=>this.pages.find(e=>e.slug===this.slug()));safeHtml=t(()=>{let e=this.page()?.html;if(!e)return"";if(this.slug()==="cv"){let n=`<a href="${this.cvDownloadUrl}" target="_blank" download="${this.cvFilename}" class="download-pdf-btn"><i class="fa-solid fa-file-pdf"></i> Download PDF</a>`;e=e.replace(/(<h1[^>]*>.*?)(<\/h1>)/i,`$1 ${n}$2`)}return this.sanitizer.bypassSecurityTrustHtml(e)});constructor(){o(()=>{let e=this.page()?.title;e&&this.titleService.setTitle(`${e} | David Silva`)})}static \u0275fac=function(n){return new(n||r)};static \u0275cmp=p({type:r,selectors:[["ng-component"]],inputs:{slugInput:[1,"slugInput"]},decls:2,vars:1,consts:[[1,"page-container"],[1,"prose",3,"innerHTML"]],template:function(n,w){n&1&&(c(0,"div",0),u(1,"article",1),d()),n&2&&(l(),g("innerHTML",w.safeHtml(),s))},styles:["[_nghost-%COMP%]{display:block;width:100%}.page-container[_ngcontent-%COMP%]{max-width:860px;margin:0 auto}.pdf-download-bar[_ngcontent-%COMP%]{display:flex;justify-content:flex-end;margin-bottom:1.25rem}.download-pdf-btn[_ngcontent-%COMP%]{display:inline-flex;align-items:center;gap:.5rem;padding:.5rem 1rem;background-color:#111827;color:#fff;border-radius:8px;font-size:.875rem;font-weight:600;text-decoration:none;transition:all .2s ease}.download-pdf-btn[_ngcontent-%COMP%]:hover{background-color:#1f2937;transform:translateY(-1px);box-shadow:0 4px 12px #0000001f}"],changeDetection:0})};export{y as PageComponent};
+`}];var a="dmpasilva_202608043.pdf";var y=class o{route=i(f);titleService=i(h);sanitizer=i(v);slugInput=m();pages=b;cvFilename=a;cvDownloadUrl=`/cv/${a}`;slug=t(()=>this.slugInput()||this.route.snapshot.paramMap.get("slug")||this.route.snapshot.url[0]?.path);page=t(()=>this.pages.find(e=>e.slug===this.slug()));safeHtml=t(()=>{let e=this.page()?.html;if(!e)return"";if(this.slug()==="cv"){let n=`<a href="${this.cvDownloadUrl}" target="_blank" download="${this.cvFilename}" class="download-pdf-btn"><i class="fa-solid fa-file-pdf"></i> Download PDF</a>`;e=e.replace(/(<h1[^>]*>.*?)(<\/h1>)/i,`$1 ${n}$2`)}return this.sanitizer.bypassSecurityTrustHtml(e)});constructor(){r(()=>{let e=this.page()?.title;e&&this.titleService.setTitle(`${e} | David Silva`)})}static \u0275fac=function(n){return new(n||o)};static \u0275cmp=p({type:o,selectors:[["ng-component"]],inputs:{slugInput:[1,"slugInput"]},decls:2,vars:1,consts:[[1,"page-container"],[1,"prose",3,"innerHTML"]],template:function(n,w){n&1&&(c(0,"div",0),u(1,"article",1),d()),n&2&&(l(),g("innerHTML",w.safeHtml(),s))},styles:["[_nghost-%COMP%]{display:block;width:100%}.page-container[_ngcontent-%COMP%]{max-width:860px;margin:0 auto}.pdf-download-bar[_ngcontent-%COMP%]{display:flex;justify-content:flex-end;margin-bottom:1.25rem}.download-pdf-btn[_ngcontent-%COMP%]{display:inline-flex;align-items:center;gap:.5rem;padding:.5rem 1rem;background-color:#111827;color:#fff;border-radius:8px;font-size:.875rem;font-weight:600;text-decoration:none;transition:all .2s ease}.download-pdf-btn[_ngcontent-%COMP%]:hover{background-color:#1f2937;transform:translateY(-1px);box-shadow:0 4px 12px #0000001f}"],changeDetection:0})};export{y as PageComponent};
